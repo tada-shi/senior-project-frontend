@@ -1,0 +1,8 @@
+.info__container{
+    width: 85vw;
+    margin: 0% auto;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
+}

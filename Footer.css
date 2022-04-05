@@ -1,0 +1,104 @@
+.footer__container{
+    width: 85vw;
+    margin: -1% auto;
+    align-items: center;
+}
+.footer__member{
+    padding: 70px 30px 25px 62px;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 45px;
+}
+.member{
+    width: 11vw;
+    background-image: url('../images/member.png');
+    height: 22vh;
+    background-color: #ff914d;
+    border-radius: 50%;
+    box-shadow: 1px 2px 2px black;
+    padding: 6px;
+}
+.member:hover .member__intro{
+    display: block;
+    color: #000;
+}
+.member:hover{
+    background-color: rgb(141, 76, 141);
+    background-image: none;
+    cursor: pointer;
+}
+.member__intro{
+    text-align: center;
+    padding-top: 55px;
+    display: none;
+}
+.footer__box{
+    width: 20vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 55vw;
+}
+.footer__donate img{
+    width: 8vw;
+}
+.footer__donate{
+    width: 8vw;
+    height: 10vh;
+    position: relative;
+    bottom: 5vh;
+    right: 1.5vw;
+    transform: rotateZ(-12deg);
+    overflow: hidden;
+}
+.footer__quote {
+    text-align: end;
+}
+.footer__quote > img{
+    width: 60vw;
+}
+.footer__logo{
+    background-color: #fff;
+    height: 110px;
+    transform: rotateZ(-12deg);
+    box-shadow: 1px 5px 5px black;
+    position: relative;
+    bottom: 8vh;
+    left: 7vw;
+}
+.footer__logo > img{
+    height: 8vw;
+}
+.footer__donate:hover{
+   cursor: pointer;
+}
+.footer__text > img{
+    width: 18vw;
+    z-index: 100;
+    transform: rotateZ(-1deg);
+    position: relative;
+    right: 6vw;
+}
+.footer__circle{
+    border: 2px solid rgb(48, 221, 48);
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    left: 12px;
+}
+@media only screen and (max-width:1000px) {
+    .footer__circle,.footer__logo{
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    .footer__circle{
+        display: none;
+    }
+}
+@media only screen and (min-width:400px) {
+    .footer__circle{
+        display: none;
+    }
+}

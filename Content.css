@@ -1,0 +1,46 @@
+.content__list{
+    text-align: justify;
+    margin: 5vh 0vw 8vw 0vh;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 10px black;
+    border: 6px solid #ff914d;
+    border-top: 2px solid transparent;
+    border-radius: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 0 0 4px #fff, 0 20px 35px rgba(0,0,0,1);
+}
+.content__text{
+    padding: 45px;
+}
+.content__effect{
+    background: url('../images/wave.png');
+    height: 100px;
+    animation: filling 30s linear infinite;
+}
+.content__title{
+    text-decoration: underline;
+    background: #fff;
+    text-align: left;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 23vw;
+    clip-path: polygon(0% 0%, 0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 0% 0%);
+}
+@keyframes filling {
+    0% {background-position-x: 0px;}
+    100% {background-position-x: 1000px;}
+}
+@media only screen and (max-width:1000px) {
+    .content__title{
+        font-size: 1rem;
+        width: 18vw;
+    }
+}
+@media only screen and (max-width:600px) {
+    .content__title{
+        font-size: 11px;
+        width: 18vw;
+    }
+}

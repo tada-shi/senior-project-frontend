@@ -1,0 +1,125 @@
+.page__container{
+    background-color: #f6f6e9;
+    background-image: url('../images/doodle.jpg');
+    width: 85vw;
+    margin: 0% auto;
+    align-items: center;
+    padding-bottom: 10%;
+    box-shadow: 0px -2px 10px black;
+}
+.quoteIntro__image{
+    text-align: end;
+}
+.quoteIntro__image > img{
+    width: 45vw;
+    height: 18vh;
+    margin: 4% 20%;
+}
+.logo__text{
+    text-align: start;
+}
+.logo__text> img{
+    height: 30vh;
+    position: relative;
+    bottom: 15vh;
+    left: 12px;
+    transform: rotateZ(-3deg);
+}
+.logo__mainboxB,.logo__mainbox{
+    background-color: #fff;
+    width: 7vw;
+    height: 14vh;
+    position: absolute;
+    right: 14vw;
+    top: 28vh;
+    transform: rotateZ(-2deg);
+    box-shadow: 1px 1px 5px black;
+}
+.logo__mainbox{
+    transform: rotateZ(-12deg);
+    box-shadow: -1px -1px 5px black, 1px 1px 5px black;
+}
+.logo__minds > img{
+    height: 14vh;
+}
+.person__tag{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 50vw;
+    margin: -2% 14%;
+    height: 38vh;
+    background-color: #fff;
+
+}
+.person__poem{
+    font-size: 1.2rem;
+    height: 12vh;
+    text-align: center;
+    line-height: 5px;
+    position: relative;
+    top: 4%;
+    left: 4%;
+    font-family: cursive;
+}
+.person__image{
+    text-align: end;
+    position: relative;
+    bottom: 30%;
+    left: 29%;
+}
+.person__image>img{
+    height: 55vh;
+    
+}
+.author__name{
+    font-style: italic;
+    margin-left: 20vw;
+}
+@media only screen and (max-width:1200px) {
+    .logo__mainboxB,.logo__mainbox{
+        display: none;
+    }
+    .person__poem{
+        font-size: 1.4rem;
+    }
+    .quoteIntro__image > img{
+        height: 80px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:1150px) {
+    .person__poem{
+        font-size: 0.7rem;
+    }
+    .person__image>img{
+        display: none;
+    }
+    .person__tag{
+        display: block;
+        height: 25vh;
+        margin: 0px auto;
+    }
+    .logo__text> img{
+        width: 45vh;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .logo__text> img{
+        width: 20vw;
+        height: 12vh;
+        bottom: 52px;
+    }
+    .quoteIntro__image > img{
+        height: 40px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .person__poem{
+        font-size: 6px;
+    }
+    .person__tag{
+        height: 15vh;
+    }
+}

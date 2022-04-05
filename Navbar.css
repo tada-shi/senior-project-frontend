@@ -1,0 +1,26 @@
+.navbar__box{
+    width: 12vw;
+    margin: 5% 22%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 12vw;
+}
+.navbar__icon{
+    width: 55px;
+    height: 55px;
+    background-color: #ff914d;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid rgba(206, 199, 199, 0.925);
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 0.692);
+}
+.navbar__icon:hover{
+    box-shadow: 2px 10px 30px rgb(155, 155, 212);
+}
+@media only screen and (max-width:955px) {
+    .navbar__box{
+        column-gap: 5vw;
+        margin: 5% 20px;
+    }
+}
